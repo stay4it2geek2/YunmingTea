@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gray_bg"
+        android:gravity="center_vertical"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/order_by_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mall_gray_btn_selector"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/chevron_down"
+            android:text="@string/mall_order_by"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/sort_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/mall_gray_btn_selector"
+            android:drawablePadding="10dp"
+            android:drawableRight="@drawable/chevron_down"
+            android:text="@string/mall_sort"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <RadioGroup
+            android:id="@+id/show_type_rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/show_as_list_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/show_as_list_selector"
+                android:button="@null" />
+
+            <RadioButton
+                android:id="@+id/show_as_grid_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/show_as_grid_selector"
+                android:button="@null"
+                android:checked="true" />
+        </RadioGroup>
+    </LinearLayout>
+
+ 
+         <GridView
+		android:id="@+id/new_arrival_list"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:cacheColorHint="#0000" 
+		android:numColumns="2"
+		android:layout_margin="10dp"/>
+  
+</LinearLayout>

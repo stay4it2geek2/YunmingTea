@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="content_fail">请求失败, 请重新发送请求</string>
+    <string name="phone_pw_null">手机号和密码不能为空</string>
+    <string name="phone_wrong">输入的手机号码格式不正确</string>
+    <string name="pw_wrong">输入的密码必须为6-20位</string>
+    <string name="phone_null">输入的手机号码不能为空</string>
+    <string name="over_top10">关键词已达到10个!</string>
+    <string name="keyword_exist">该关键字已存在!</string>
+    <string name="prompt_network_url_error">url地址无效！</string>
+    <string name="prompt_network_error">网络连接错误！</string>
+	<string name="prompt_network_receiving_error">数据获取错误！</string>
+	<string name="dl_msg_receiving_data">正在获取数据...</string>
+	<string name="dl_title_prompt">提示</string>
+    <string name="dl_title_feedback">反馈</string>
+    <string name="dl_btn_confirm">确定</string>
+    <string name="delete_product">确定要删除该商品?</string>
+    <string name="is_exit">确认退出该帐号吗？</string>
+</resources>

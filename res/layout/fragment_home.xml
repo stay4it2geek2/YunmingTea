@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/title_bg"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/logo_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/logo" />
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:focusable="true"
+                android:focusableInTouchMode="true" >
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/search_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:background="@drawable/search_edit"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:hint="@string/search_product_hint"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/search_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/search_edit"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/search_icon_selector" />
+
+            <Button
+                android:id="@+id/search_voice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/search_edit"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dip"
+                android:background="@drawable/search_voice_selector" />
+
+            <Button
+                android:id="@+id/search_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@id/search_edit"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dip"
+                android:background="@drawable/search_delete"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip" >
+
+            <Button
+                android:id="@+id/search_cancel"
+                style="@style/white_shadow_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_btn_selector"
+                android:text="@string/cancel_text"
+                android:textColor="#ff333333"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/search_do_search"
+                style="@style/white_shadow_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_btn_selector"
+                android:text="@string/search_do_search"
+                android:textColor="#ff333333"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- viewpager自动翻页图片 -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/gray_bg" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="5dip"
+        android:background="@drawable/divider_shadow" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/home_new_arrival"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="0.1dip"
+                android:layout_weight="1"
+                android:background="@drawable/home_new_arrival_selector" />
+
+            <ImageView
+                android:id="@+id/home_top_sellers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/home_top_sellers_selector" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/home_tea_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="0.1dip"
+                android:layout_weight="1"
+                android:background="@drawable/home_tea_info_selector" />
+
+            <ImageView
+                android:id="@+id/home_contact_store"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/home_contact_store_selector" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dip"
+            android:background="@drawable/divider_shadow" />
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/white">
+        
+        
+    <TextView
+        android:id="@+id/tv_top_level_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

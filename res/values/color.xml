@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="title_text_color">#000</color>
+    <color name="bg_color">#ecede3</color>
+    <color name="line_color">#eee</color>
+    <color name="home_back_color">#000</color>
+    <color name="hyaline_color">#0fff</color>
+    <color name="red_text_color">#8d112e</color>
+    <color name="blue_text_color">#364b88</color>
+    <color name="rounded_red_color">#a41737</color>
+    <color name="list_divider_color">#c5c5c5</color>
+    <color name="undo_color">#858585</color>
+    <color name="black_text_color">#353535</color>
+
+    <drawable name="radio_bg">#0000</drawable>
+    <drawable name="hyaline_drawable">#0000</drawable>
+    <drawable name="red_drawable">#a41737</drawable>
+
+    <color name="light_text_color">#535353</color>
+    <color name="black">#000</color>
+    <color name="white">#fff</color>
+    <color name="golden">#ffbd8a3a</color>
+    <color name="gray">#ff999999</color>
+    <color name="subhead">#ff464646</color>
+    <color name="btn_text_clolor">#333333</color>
+    <color name="series_color">#9f8278</color>
+
+</resources>

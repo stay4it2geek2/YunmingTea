@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <string-array name="navi_items">
+        <item>首页</item>
+        <item>商城</item>
+        <item>我的</item>
+        <item>更多</item>
+         <item>扫码</item>
+    </string-array>
+    <string-array name="mall_order_by_types_s">
+        <item>按价格升序排列</item>
+        <item>按价格降序排列</item>
+        <item>按上架时间升序排列</item>
+        <item>按上架时间降序排列</item>
+        <item>按销量升序排列</item>
+        <item>按销量降序排列</item>
+        <item>按收藏次数升序排列</item>
+        <item>按收藏次数降序排列</item>
+    </string-array>
+
+    <string-array name="mall_order_by_types_c">
+        <item>按价格升序排列</item>
+        <item>按价格降序排列</item>
+        <item>按上架时间升序排列</item>
+        <item>按上架时间降序排列</item>
+        <item>按销量降序排列</item>
+        <item>按收藏次数降序排列</item>
+    </string-array>
+</resources>
